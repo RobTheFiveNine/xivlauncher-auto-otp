@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
     <img src=".github/lalafell.png" />
     <h1>XIVLauncher Auto OTP</h1>
 </div>
