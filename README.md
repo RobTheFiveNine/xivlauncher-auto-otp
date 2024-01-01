@@ -40,7 +40,7 @@ You are now setup! To use the tool:
 
 
 ## How do I find my OTP secret?
-The OTP secret (also known as the "seed" or "key") is a 32 character long string of alphanumeric characters that determines what tokens are generated for you by the application. In order for this tool to work, it needs to be able to generate tokens for you the same way your regular 2FA application does when you are generating tokens to login on the website or on other platforms.
+The OTP secret (also known as the "seed" or "key") is a 32 character long string that determines what tokens are generated for you by the application. In order for this tool to work, it needs to be able to generate tokens for you the same way your regular 2FA application does when you are generating tokens to login on the website or on other platforms.
 
 How you find the OTP secret will depend on what application you are using to generate your 2FA tokens. Lots of applications (such as Google's own, Authy and others) will not allow you to retrieve the seed used to setup the token.
 
