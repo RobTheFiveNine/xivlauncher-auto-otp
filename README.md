@@ -16,6 +16,8 @@ In practical terms, this means that if someone were able to steal your Steam Dec
 
 Likewise, if someone were to compromise the device remotely and be able to access the file system, they could in theory steal the credentials (though, if someone has compromised the user session remotely, it would be trivial for them to capture this data and use it to compromise the account without this tool installed).
 
+Although the protection that 2FA provides against things such as brute force attacks or compromised passwords is unaffected, it is important that you understand the risk introduced by doing this should your Steam Deck be stolen by someone who understands what the 2FA key / secret is before you can remove it from your Square Enix account.
+
 ## Setup guide
 1. Ensure XIVLauncher is installed on your Steam Deck as per [The Official Instructions](https://goatcorp.github.io/faq/steamdeck.html)
 2. Enable the OTP app feature in the settings screen of XIVLauncher (see the [Authenticator App Guide](https://goatcorp.github.io/faq/mobile_otp#enabling-the-otp-app-feature-in-xivlauncher) for more information)
@@ -42,7 +44,7 @@ Some apps, such as KeePassXC, will allow you to see the `otpauth` URI that will 
 
 If you are unable to extract the secret from your current 2FA setup, your only way forward will be to remove the existing 2FA from your account, and set it up again, but when setting it back up, choosing to enter the key (aka the secret) manually rather than using the QR code.
 
-For instructions on setting up an authenticator without a QR code, see [https://www.square-enix-games.com/en_GB/seaccount/otp/authenticator.html](https://www.square-enix-games.com/en_GB/seaccount/otp/authenticator.html).
+For instructions on setting up an authenticator without a QR code, see [https://www.square-enix-games.com/en_GB/seaccount/otp/authenticator.html](https://www.square-enix-games.com/en_GB/seaccount/otp/authenticator.html); specifically, the section titled `Registration for Google Authenticator (Authentication Key Entry)`.
 
 When setting your 2FA back up this way, make note of the key that you are entering into your Google Authenticator app, as this will be the value we use as the secret in XIVLauncher Auto OTP.
 
