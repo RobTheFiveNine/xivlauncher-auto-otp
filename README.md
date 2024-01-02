@@ -6,7 +6,7 @@
 ## What is XIVLauncher Auto OTP?
 It is a tool for generating OTP tokens for use with XIVLauncher on the Steam Deck to prevent the need to type anything when logging into Final Fantasy XIV.
 
-To see a demonstration of how this works, check out [This YouTube Video](https://www.youtube.com/watch?v=6l3XieOaxKE).
+To see a demonstration of how this works, check out [This YouTube Video](https://www.youtube.com/watch?v=-JH7yQgBsx0).
 
 ## Why is this a thing?
 I personally find it difficult to use the text entry on the Steam Deck, XIVLauncher allows you to save your password to avoid having to type this out every time, however, it still requires a 2FA token be entered. This tool will automatically generate and pass the token to XIVLauncher when launched through the Steam Deck.
